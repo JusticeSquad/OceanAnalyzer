@@ -1,10 +1,8 @@
 import React from 'react';
 
 import {
-    // HsjBasePage,
+    HsjBasePage,
 
-    HsjButton,
-    HsjCard,
     HsjFooter,
     HsjHeader,
     HsjHeroGradient,
@@ -13,26 +11,23 @@ import {
 
 export default function Home(props: any) {
     return (
-        <div>
-            <HsjHeader
-                title='Ocean Analyzer'
-                pageList={[
-                    {
-                        name: 'Projects',
-                        link: '/projects',
-                    },
-                    {
-                        name: 'Features',
-                        link: '/features',
-                    },
-                    {
-                        name: 'Login',
-                        link: '/login',
-                    },
-                ]}
-            >
-            </HsjHeader>
-
+        <HsjBasePage
+            title='Ocean Analyzer'
+            pageList={[
+                {
+                    name: 'Projects',
+                    link: '/projects',
+                },
+                {
+                    name: 'Features',
+                    link: '/features',
+                },
+                {
+                    name: 'Login',
+                    link: '/login',
+                },
+            ]}
+        >
             <main>
                 <HsjHeroGradient
                     gradientType='hsj-hero-gradient-shatter'
@@ -67,9 +62,9 @@ export default function Home(props: any) {
 
                     <div>OCEAN Analyzer is based on the work of Jason Vandenberghe.</div>
                 </section>
-
-                <HsjFooter>MIT License</HsjFooter>
             </main>
-       </div>
+
+            <HsjFooter>MIT License</HsjFooter>
+        </HsjBasePage>
     );
 }
