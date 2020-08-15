@@ -1,0 +1,7 @@
+section.ocean-home-section-desc {
+    text-align: center;
+}
+
+section.ocean-home-section-desc > h3, section.ocean-home-section-desc > div {
+    margin: 20px 0;
+}

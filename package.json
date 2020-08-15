@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "check-types": "tsc"
+    "check-types": "tsc",
+    "hsj-rjs-git-update": "npm uninstall hsj-rjs && npm install --save git+https://github.com/JusticeSquad/hsj-rjs.git",
+    "hsj-rjs-update": "npm uninstall hsj-rjs && npm install hsj-rjs-1.0.0.tgz"
   },
   "repository": {
     "type": "git",
@@ -39,8 +41,10 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
+    "hsj-rjs": "file:hsj-rjs-1.0.0.tgz",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
