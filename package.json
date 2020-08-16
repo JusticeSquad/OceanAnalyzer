@@ -29,6 +29,7 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
+    "@types/react-router-dom": "^5.1.5",
     "babel-loader": "^8.1.0",
     "css-loader": "^4.2.0",
     "html-webpack-plugin": "^4.3.0",
@@ -46,6 +47,7 @@
     "@types/react-dom": "^16.9.8",
     "hsj-rjs": "file:hsj-rjs-1.0.0.tgz",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
   }
 }
